@@ -792,6 +792,84 @@ select {
 .w-auto {
   width: auto;
 }
+.w-1n2 {
+    width: 50%;
+}
+.w-1n3 {
+    width: 33.333333%;
+}
+.w-2n3 {
+    width: 66.666667%;
+}
+.w-1n4 {
+    width: 25%;
+}
+.w-2n4 {
+    width: 50%;
+}
+.w-3n4 {
+    width: 75%;
+}
+.w-1n5 {
+    width: 20%;
+}
+.w-2n5 {
+    width: 40%;
+}
+.w-3n5 {
+    width: 60%;
+}
+.w-4n5 {
+    width: 80%;
+}
+.w-1n6 {
+    width: 16.666667%;
+}
+.w-2n6 {
+    width: 33.333333%;
+}
+.w-3n6 {
+    width: 50%;
+}
+.w-4n6 {
+    width: 66.666667%;
+}
+.w-5n6 {
+    width: 83.333333%;
+}
+.w-1n12 {
+    width: 8.333333%;
+}
+.w-2n12 {
+    width: 16.666667%;
+}
+.w-3n12	{
+    width: 25%;
+}
+.w-4n12	{
+    width: 33.333333%;
+}
+.w-5n12	{
+    width: 41.666667%;
+}
+.w-6n12	{
+    width: 50%;
+}
+.w-7n12	{
+    width: 58.333333%;
+}
+.w-8n12	{
+    width: 66.666667%;
+}
+.w-9n12	{
+    width: 75%;
+}
+.w-10n12 {
+    width: 83.333333%;
+}
+.w-11n12 {
+    width: 91.666667%;
+}
 .w-full {
   width: 100%;
 }
@@ -935,6 +1013,9 @@ select {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-red-300	{
+    background-color: rgb(252 165 165);
 }
 .fill-current {
   fill: currentColor;
