@@ -16,11 +16,13 @@ class LifeCycleTestController extends Controller
         $test = app()->make('lifeCycleTest');
 
         // 서비스 컨테이너 없음 패턴
+        // 의존하는 두개의 클래스를 각각 인스턴스화 해서 실행
         $message = new Message();
         $sample = new Sample($message);
         $sample->run();
 
         // 서비스 컨테이너 app() 패턴
+        // bind로 등록할 경우 관련된 클래스(Message)도 같이 인스턴스화 해준다
         app()->bind('sample', Sample::class);
         $sample = app()->make('sample');
         $sample->run();
